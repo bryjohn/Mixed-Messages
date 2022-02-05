@@ -48,6 +48,7 @@ function corny() {
     console.log(cornyjokes[joke_id][1]);
 }
 
+//Picks random joke to tell
 function generateJoke(){
     const joke = Math.floor(Math.random() * 2) + 1;
     switch(joke){
